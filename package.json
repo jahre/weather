@@ -1,0 +1,27 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "grow-project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahre/weather.git"
+  },
+  "keywords": [
+    "weather",
+    "grow"
+  ],
+  "author": "Ivan Amelyanenka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahre/weather/issues"
+  },
+  "homepage": "https://github.com/jahre/weather#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
