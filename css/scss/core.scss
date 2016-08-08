@@ -1,6 +1,37 @@
-.beststyle{
-    background:red;
-    .somestyle{
-        background:green;
-    }
+html, body{
+    height:100%;
+}
+.wrapper{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.top_message{
+    height:60px;
+    background:#1a1a1a;
+    border-bottom:1px solid #353535;
+}
+.main{
+    flex:1;
+    display:flex;
+}
+.aside{
+    width:250px;
+    background:#171717;
+}
+.info-container{
+    flex:1;
+    overflow-y:auto;
+    position:relative;
+
+}
+.content{
+    margin-bottom:105px;
+}
+.footer{
+    position:fixed;
+    width:100%;
+    bottom:0px;
+    height:105px;
+    background:#060606;
 }
