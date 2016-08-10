@@ -10,6 +10,9 @@ html, body{
     height:60px;
     background:#1a1a1a;
     border-bottom:1px solid #353535;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
 }
 .main{
     flex:1;
@@ -18,20 +21,64 @@ html, body{
 .aside{
     width:250px;
     background:#171717;
+    padding: 0 13px;
+    box-sizing:border-box;
 }
 .info-container{
     flex:1;
     overflow-y:auto;
     position:relative;
-
+    height: calc(100vh - 165px);
 }
 .content{
     margin-bottom:105px;
 }
 .footer{
     position:fixed;
-    width:100%;
+    width:calc(100% - 250px);
     bottom:0px;
     height:105px;
     background:#060606;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-menu{
+    padding:0;
+}
+.footer-menu li{
+    display:inline-block;
+    list-style:none;
+}
+.footer-menu li a{
+    color:#fff;
+}
+.btn_close{
+    flex:0;
+    line-height:30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:10px;
+    font-family:Arial, sans-serif;
+    font-weight:bold;
+    color:#fff;
+    height:30px;
+    border-radius:3px;
+    background:#3b3b3b url(../img/close.png) no-repeat 10px 50%;
+    padding:0 14px 0 28px;
+    margin-right:20px;
+    &:hover{
+        background:#646464 url(../img/close.png) no-repeat 10px 50%;
+    }
+}
+
+.weather-table{
+    width:310px;
+}
+.weather-table td:first-child{
+    width:100px;
+}
+.weather-table td{
+    border:1px solid #1a1a1a;
 }
