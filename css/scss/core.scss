@@ -1,3 +1,62 @@
+/* Fonts 
+______________________________________________________________*/
+@font-face {
+  font-family: 'ptsanscaption';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/pt_sans_caption/PT_Sans-Caption-Web-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'ptsanscaption';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/pt_sans_caption/PT_Sans-Caption-Web-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'ptsansnarrow';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/pt_sans_narrow/PT_Sans-Narrow-Web-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'ptsansnarrow';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/pt_sans_narrow/PT_Sans-Narrow-Web-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'ptserif';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/pt_serif/PT_Serif-Web-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'ptserif';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/pt_serif/PT_Serif-Web-Italic.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'ptsans-narrow';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/pt_sans_narrow/PT_Sans-Narrow-Web-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'ptsans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/pt_sans/PT_Sans-Web-Regular.ttf') format("truetype");
+}
+/* Styles
+______________________________________________________________*/
 html, body{
     height:100%;
 }
