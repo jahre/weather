@@ -43,18 +43,12 @@ ______________________________________________________________*/
 }
 
 @font-face {
-  font-family: 'ptsans-narrow';
-  font-style: normal;
-  font-weight: bold;
-  src: url('../fonts/pt_sans_narrow/PT_Sans-Narrow-Web-Bold.ttf') format("truetype");
-}
-
-@font-face {
   font-family: 'ptsans';
   font-style: normal;
   font-weight: normal;
   src: url('../fonts/pt_sans/PT_Sans-Web-Regular.ttf') format("truetype");
 }
+
 /* Styles
 ______________________________________________________________*/
 html, body{
@@ -91,6 +85,8 @@ html, body{
 }
 .content{
     margin-bottom:105px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 .footer{
     position:fixed;
@@ -132,12 +128,65 @@ html, body{
     }
 }
 
-.weather-table{
-    width:310px;
+.ic-title{
+    font-family: 'ptsansnarrow';
+    font-weight: bold;
+    color: #505050;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0;
 }
-.weather-table td:first-child{
-    width:100px;
+.current-forecast{
+  display: flex;
+  align-items: center;
 }
-.weather-table td{
-    border:1px solid #1a1a1a;
+.cw-precipitation{
+  margin-right: 13px;
+}
+.cw-temperature{
+    font-family: 'ptsansnarrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #505050;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0;
+}
+
+.cw-info{
+    font-family: 'ptsans', Arial, sans-serif;
+    line-height: 1.5;
+}
+.cw-type{
+  margin: 0;
+}
+.basic-link{
+  color: #db6c22;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.cw-table{
+  margin: 10px 0 30px 0;
+  width:310px;
+  font-family: 'ptsans', Arial, sans-serif;
+  font-size: 14px;
+  tr{
+    background: #fff;
+    &:nth-child(odd){
+      background: #f9f9f9;
+
+    }
+  }
+
+  td{
+    padding: 10px 5px;
+    border:1px solid #ddd;
+    vertical-align: top;
+
+    &:first-child{
+      width:100px;
+    }
+  }    
 }

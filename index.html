@@ -40,17 +40,18 @@
                 </div>
                 <div class="info-container">
                     <div class="content">
-                        <h1>City of London</h1>
-                        <p class="current_weather">
-                            <img src="img/weather-icon.png" alt="">
-                            <span>18 C</span>
+                    <section class="current-weather">
+                        <h1 class="ic-title">City of London</h1>
+                        <p class="current-forecast">
+                            <img src="img/weather-icon.png" alt="partly cloudy" class="cw-precipitation">
+                            <span class="cw-temperature">17 &deg;C</span>
                         </p>
-                        <p>
-                            <span>Rain</span>
+                        <section class="cw-info">
+                            <p class="cw-type">Rain</p>
                             <span>Get at</span> <span class="weather-date">2019.06.29 13:47</span>
-                            <span>(<a href="#" onclick="return false">Wrong data?</a>)</span>
-                        </p>
-                        <table class="weather-table">
+                            <span>(<a href="#" onclick="return false" class="basic-link">Wrong data?</a>)</span>
+                        </section>
+                        <table class="cw-table">
                             <tr>
                                <td>Wind</td>
                                <td>Moderate breeze 7.2 m/s South-southwest (210)</td>
@@ -77,12 +78,13 @@
                             </tr>
                             <tr>
                                 <td>Geo coords</td>
-                                <td>[-0.09, 51,51]</td>
+                                <td><a href="#" class="basic-link">[-0.09, 51.51]</a></td>
                             </tr>
                         </table>
-
-                        <h1>Next Days</h1>
-                        <table class="weather-table">
+                    </section>
+                    <section class="future-weather">        
+                        <h1 class="ic-title">Next Days</h1>
+                        <table class="fw-table">
                             <tr>
                                 <td>
                                     <span>29 Jun</span>
@@ -149,6 +151,7 @@
                                 </td>
                             </tr>
                         </table>
+                    </section>    
 
                     </div>
                     <div class="footer">
